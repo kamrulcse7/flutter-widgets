@@ -18,11 +18,7 @@ class MyApp extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                RaisedButton(
-                  onPressed: () {},
-                  child: Text("Button"),
-                  color: Colors.blue,
-                ),
+                
                 SizedBox(
                   height: 10.0,
                 ),
@@ -41,13 +37,8 @@ class MyApp extends StatelessWidget {
                 SizedBox(
                   height: 10.0,
                 ),
-                FlatButton(
-                  onPressed: () {},
-                  child: Text("Button"),
-                ),
-                SizedBox(
-                  height: 10.0,
-                ),
+                
+                
                 TextButton(
                   onPressed: () {},
                   child: Text("Button"),
